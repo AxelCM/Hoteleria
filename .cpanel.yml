@@ -6,3 +6,5 @@ deployment:
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R crud-design-html $DEPLOYPATH
     - /bin/cp -R system $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp error_log $DEPLOYPATH
