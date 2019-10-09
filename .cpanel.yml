@@ -2,4 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/geekstso/public_html/hotelsys/
-    - /bin/cp Hoteleria $DEPLOYPATH
+    - /bin/cp -R application $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R crud-design-html $DEPLOYPATH
+    - /bin/cp -R system $DEPLOYPATH
