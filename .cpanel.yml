@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/geekstso/public_html/hotelsys/
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home2/geekstso/public_html/hotelsys/
+    - /bin/cp -R Hoteleria $DEPLOYPATH
